@@ -1,0 +1,5 @@
+- name: Test Linux Connection
+  hosts: all
+  tasks:
+    - name: Ping Linux Machine
+      ping:
